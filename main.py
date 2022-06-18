@@ -7,7 +7,8 @@ from PIL import Image, ImageDraw, ImageFont
 import base64
 from io import BytesIO
 
-
+def biggestSmallerSquare(val):
+    return round(val**1/2,0)**2
 scope = "ugc-image-upload playlist-modify-private playlist-modify-public"
 
 sp = spotipy.Spotify(auth_manager=SpotifyOAuth(scope=scope))
