@@ -1,4 +1,11 @@
-from dotenv import load_dotenv
-load_dotenv()
+{
+"playlists": [
+  {
+    "playlist_url": "https://open.spotify.com/playlist/5YeCtYa0aVAUmsgbZ8fQB6?si=86c68d08ef2d4e68",
+    "image":"TEST.jpg",
+    "barcode_text":"10",
+    "bottom_text": "The Top 10"
+  }
 
-
+]
+}
